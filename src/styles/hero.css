@@ -1,0 +1,23 @@
+.hero{
+width: Fixed (1,439px);
+height: Hug (682px);
+gap: 30px;
+background-color: #b4cca4;
+
+}
+
+.hero> .leftside{
+width: Fixed (573px);
+height: Hug (386px);
+gap: 30px;
+}
+.hero> .leftside> .para{
+    text-align: left;
+    color: red;
+}
+.hero> .leftside> .btns> .Get-Quote-Now{
+    padding: auto;
+    border-radius: 4px;
+    border: 1px solid red;
+
+}

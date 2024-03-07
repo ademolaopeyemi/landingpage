@@ -1,0 +1,55 @@
+.sect{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 91px;
+    background-color: rgba(5, 53, 247, 0.2);
+}
+
+.sect > .wrapper{
+
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sect > .wrapper > .logo{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.sect > .wrapper > .navItems > ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.sect > .wrapper > .navItems > ul > li > a{
+    text-decoration: none;
+    color: #737373;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.sect > .wrapper > .userMgt{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+}
+
+.sect > .wrapper > .userMgt > .login{
+    color: #96bb7c;
+}
+
+.sect > .wrapper > .userMgt > .joinUs{
+    padding-inline: 25px;
+    height: 52px;
+    width: 137px;
+    border: none;
+    border-radius: 5px;
+    background-color: #96bb7c;
+    color: #ffffff;
+}
